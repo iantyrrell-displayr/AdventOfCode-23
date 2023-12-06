@@ -1,7 +1,7 @@
 import java.util.*
 
 fun main() {
-    val day = Day4() as Day
+    val day = Day6() as Day
 //    val res = day::class.java.getResource("input-${day.javaClass.name.lowercase(Locale.getDefault())}-sample.txt")
     val res = day::class.java.getResource("input-${day.javaClass.name.lowercase(Locale.getDefault())}.txt")
     val input = res?.readText()?.split("\n") ?: emptyList()
